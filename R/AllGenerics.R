@@ -82,9 +82,6 @@ setGeneric("keytypes", signature="x", function(x) {
     sort(value)
 })
 
-setGeneric("select", signature="x",
-           function(x, keys, columns, keytype, ...) standardGeneric("select"))
-
 setGeneric("mapIds", signature="x",
            function(x, keys, column, keytype, ..., multiVals)
                standardGeneric("mapIds"))

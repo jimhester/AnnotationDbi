@@ -178,3 +178,6 @@ export(
 
     createSimpleBimap
 )
+
+importFrom(generics, select)
+export(select)
